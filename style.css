@@ -1,0 +1,168 @@
+body{
+    margin:0;
+    font-family: 'Arial', sans-serif;
+}
+
+/* Navbar styles */
+
+nav {
+    color:red;
+    padding: 10px;
+    text-align: center;
+    height: 50px;
+}
+nav form {
+    margin-left: 82%;
+    padding-bottom: 20px;
+}
+nav a {
+    text-decoration: none;
+    color: gray;
+    padding: 10px 20px;
+    display: inline-block;
+    transition: background-color 0.3s ease;
+  }
+  nav a:hover {
+    background-color: #555;
+  }
+
+  /* div 1 */
+
+  #section1{
+    margin: 0;
+    width: 100%;
+    height: 600px;
+    font-family: 'Arial', sans-serif;
+   background-color: rgb(96, 118, 157);
+    background-position: center; /* Adjust as needed */
+    background-repeat: no-repeat;
+    text-align: center;
+    padding-top: 200px;
+  }
+  #section1 .container1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: 600px; /* Adjust the maximum width as needed */
+    margin: 0 auto; /* This centers the container horizontally */
+  }
+  
+  .container1 h1 {
+    font-size: 2em;
+    margin-bottom: 10px;
+  }
+  
+  .container1 h2 {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+  }
+  
+  .getstarted {
+    background-color: #007bff; /* Add your desired button color */
+    color: #fff; /* Add your desired text color */
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+  }
+
+  #section2{
+    margin-top: 150px;
+    margin-bottom: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+   
+
+  }
+  .main{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+  .main .blog {
+        max-width: 200px;
+        margin: 20px;
+        padding: 20px;
+        background-color: #fff;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add a subtle box shadow */
+        
+      }
+      
+ p {
+     line-height: 1.6;
+ }
+  
+ #section3{
+    background-color:darkgray;
+    margin-top: 150px;
+    margin-bottom: 150px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+    padding-bottom: 20px;
+   
+ }
+ /*#section3 .main1 .blog1{
+    max-width: 200px;
+    margin: 20px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add a subtle box shadow 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ }*/
+ .main1{
+    display: flex;
+    
+ }
+ .blog1 img{
+    width: 200px;
+    height: 200px;
+    
+ }
+ .main1 .blog1{
+    margin: 20px;
+    padding: 20px;
+    background-color: white;
+ }
+ #section4{
+    margin-top: 100;
+    margin-bottom: 100;
+ } 
+ #section4 .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: 600px; /* Adjust the maximum width as needed */
+    margin: 0 auto; /* This centers the container horizontally */
+    margin-bottom: 100px;
+ }
+ #footer{
+    background-color:darkslategrey;
+ }
+ #footer .main2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 150px;
+
+ }
+ #footer .main2 .container{
+    max-width: 200px;
+    margin: 20px;
+    padding: 20px;
+ }
+
+ img  {
+    width: 100px;
+    height: 100px;
+ }
